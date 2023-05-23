@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SearchF</string>
+    <string name="get_started">Get Started</string>
+    <string name="add_image">Add Image</string>
+    <string name="todo1" />
+    <string name="todo2" />
+    <string name="todo3" />
+    <string name="todo4" />
+    <string name="getting_started">Getting Started</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo8">TODO</string>
+    <string name="result">Result</string>
+    <string name="view_all_medicines">View All Medicines</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+
+</resources>

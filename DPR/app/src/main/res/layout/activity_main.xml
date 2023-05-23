@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <!--android:background="@drawable/b"-->
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:contentDescription="@string/todo1"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        app:srcCompat="@mipmap/logo" />
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="367dp">
+
+        <ImageView
+            android:id="@+id/getStarted"
+            android:layout_width="329dp"
+            android:layout_height="41dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="-65dp"
+            android:contentDescription="@string/todo2"
+            android:paddingStart="20dp"
+            android:paddingLeft="20dp"
+            app:srcCompat="@mipmap/started"
+            tools:ignore="RtlSymmetry" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
